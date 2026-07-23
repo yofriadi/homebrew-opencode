@@ -9,6 +9,7 @@ brew tap yofriadi/tap
 brew install yofriadi/tap/tree
 brew install yofriadi/tap/weathr
 brew install yofriadi/tap/ticgit
+brew install yofriadi/tap/uteke
 ```
 
 - `ticgit` installs as `ti`
