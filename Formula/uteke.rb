@@ -3,6 +3,11 @@ class Uteke < Formula
   homepage "https://github.com/codecoradev/uteke"
   license "Apache-2.0"
 
+  bottle do
+    root_url "https://github.com/yofriadi/homebrew-tap/releases/download/uteke-0.10.0"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe: "bf95452a6c4da270ac1d0aadc31b1604f1b7d9f5d60e9579a011528db82f5cac"
+  end
+
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/codecoradev/uteke/releases/download/v0.10.0/uteke-aarch64-apple-darwin-v0.10.0.tar.gz"
